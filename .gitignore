@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Model checkpoints & weights (large binary files)
+checkpoints/
+models/
+
+# Training data
+data/
+南新/
+南原图/
+
+# IDE
+.idea/
+
+# Agent workspace
+.sisyphus/
+
+# Evaluation outputs (optional - comment out to track)
+eval_*/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
