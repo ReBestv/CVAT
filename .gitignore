@@ -1,4 +1,4 @@
-# Python
+﻿# Python
 __pycache__/
 *.py[cod]
 *.so
@@ -7,14 +7,21 @@ dist/
 build/
 .eggs/
 
-# Model checkpoints & weights (large binary files)
-checkpoints/
+# Model checkpoints (only track segformer best.pt)
+checkpoints/*
+!checkpoints/segformer/
+checkpoints/segformer/*
+!checkpoints/segformer/segformer_20260522_230504/
+checkpoints/segformer/segformer_20260522_230504/*
+!checkpoints/segformer/segformer_20260522_230504/best.pt
+
+# Downloaded pretrained models (large binary files)
 models/
 
 # Training data
 data/
-南新/
-南原图/
+鍗楁柊/
+鍗楀師鍥?
 
 # IDE
 .idea/
